@@ -1,0 +1,26 @@
+.hero-image {
+  width: 556px;
+  height: 100px;
+  top: 171px;
+  left: 327px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.vibrating-img {
+  width: 212px;
+  height: 212px;
+  top: 103px;
+  left: 914px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.hero-box {
+  width: 1440px;
+  height: 270px;
+  top: 74px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(18, 18, 18, 1);
+}
