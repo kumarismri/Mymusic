@@ -3,6 +3,8 @@
   height: 100px;
   top: 171px;
   left: 327px;
+  color: white;
+  font-size: larger;
   gap: 0px;
   opacity: 0px;
 }
@@ -17,10 +19,10 @@
 }
 
 .hero-box {
-  width: 1440px;
+  /* width: 1440px; */
   height: 270px;
   top: 74px;
   gap: 0px;
   opacity: 0px;
-  background: rgba(18, 18, 18, 1);
+  background: black;
 }

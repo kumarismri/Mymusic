@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../assets/Hero.png";
+// import hero from "../../assets/Hero.png";
 import vib from "../../assets/vibrating-headphone.png";
 import "./Hero.css";
 
@@ -11,7 +11,8 @@ export const Hero = () => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <div className="hero-image">
-          <img src={hero} />
+          <h3 style={{marginLeft: "2rem"}}>100 Thousand Songs, ad-free</h3>
+          <h3>Over thousands podcast episodes</h3>
         </div>
           <img className="vibrating-img" src={vib} />
       </div>

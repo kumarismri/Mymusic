@@ -17,7 +17,7 @@ export const Logo = () => {
             <img src={search} className="search-image"/>
           </button>
         </div>
-        <button className="feedback-button">Give Feedback</button>
+        <button className="feedback-button" style={{cursor:'pointer'}}>Give Feedback</button>
       </div>
     </>
   );
