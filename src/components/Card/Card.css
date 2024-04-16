@@ -1,10 +1,18 @@
 .card {
-  width: 159px;
-  height: 205px;
+  width: 205px;
+  height: 300px;
   gap: 0px;
   border-radius: 10px 10px 10px 10px;
-  opacity: 0px;
+  /* opacity: 0px; */
   border: 1px solid black;
   background-color: white;
   margin: 20px;
+  color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
