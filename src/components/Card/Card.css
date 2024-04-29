@@ -1,12 +1,12 @@
 .card {
-  width: 205px;
-  height: 300px;
+  width: 150px;
+  height: 250px;
   gap: 0px;
   border-radius: 10px 10px 10px 10px;
   /* opacity: 0px; */
   border: 1px solid black;
   background-color: white;
-  margin: 20px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -15,4 +15,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.tiles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    height: 100%;
+}
+
+.chip{
+    width: 100%;
+    height: 20%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
 }

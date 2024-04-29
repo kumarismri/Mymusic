@@ -1,6 +1,7 @@
 import React from "react";
 import qtify from "../assets/Logo.png";
 import search from "../assets/Searchicon.png";
+import Button from '@mui/material/Button';
 import "./Logo.css";
 export const Logo = () => {
   return (
